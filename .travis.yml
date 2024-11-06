@@ -1,0 +1,13 @@
+language: node_js
+
+node_js:
+-18.18.0 # node version
+
+install:
+-yarn install
+
+script:
+-yarn test
+
+notification:
+- email: false # disable receiving email notificartions of build/test status
